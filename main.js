@@ -18,3 +18,7 @@ if (age < 18) {
   ticketPrice *= 0.8;
   console.log("Sconto minorenne applicato");
 } 
+else if (age >= 65) {
+  ticketPrice *= 0.6;
+  console.log("Sconto over 65 applicato");
+}
