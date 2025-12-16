@@ -11,3 +11,4 @@ console.log("Età inserita:", age);
 // Calcolo del prezzo base
 const pricePerKm = 0.21;
 let ticketPrice = kilometers * pricePerKm;
+console.log("Prezzo base:", ticketPrice);
