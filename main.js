@@ -28,3 +28,4 @@ else {
 
 // Prezzo finale del biglietto "fixato"
 const finalPrice = ticketPrice.toFixed(2);
+console.log("Prezzo finale:", finalPrice);
