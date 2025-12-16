@@ -25,3 +25,6 @@ else if (age >= 65) {
 else {
   console.log("Nessuno sconto applicato");
 }
+
+// Prezzo finale del biglietto "fixato"
+const finalPrice = ticketPrice.toFixed(2);
