@@ -12,3 +12,9 @@ console.log("Età inserita:", age);
 const pricePerKm = 0.21;
 let ticketPrice = kilometers * pricePerKm;
 console.log("Prezzo base:", ticketPrice);
+
+// Sconti
+if (age < 18) {
+  ticketPrice *= 0.8;
+  console.log("Sconto minorenne applicato");
+} 
