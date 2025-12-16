@@ -6,3 +6,4 @@ console.log("Km inseriti:", kilometers);
 
 // Richiesta dell'eta' 
 const age = parseInt(prompt("Quanti anni hai?"));
+console.log("Età inserita:", age);
