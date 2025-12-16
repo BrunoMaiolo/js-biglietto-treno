@@ -22,3 +22,6 @@ else if (age >= 65) {
   ticketPrice *= 0.6;
   console.log("Sconto over 65 applicato");
 }
+else {
+  console.log("Nessuno sconto applicato");
+}
